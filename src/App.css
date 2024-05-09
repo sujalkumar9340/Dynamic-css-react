@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,64 @@
   to {
     transform: rotate(360deg);
   }
+} */
+/* .login{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+ .login .box{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  padding-top: 200px;
+  background:linear-gradient(to top right ,red 30% ,blue 60%
+  );
+  color: aliceblue;
+}
+.box .heading{
+  padding-left: 90px;
+}
+.name{
+  padding: 5px 44px;
+}
+.username{
+  padding-bottom: 23px;
+}
+.password input.password{
+  padding: 5px 44px;
+}
+ .remember{
+  display: flex;
+  justify-content:space-between;
+  padding-top: 12px;
+ }
+.box .login{
+  border-radius: 23px;
+  padding: 9px 112px;
+}
+.button{
+   display: flex;
+   justify-content: center;
+   padding-top: 25px;
+}
+.parent{
+   width: 100vw;
+   height: 100vh;
+   background-color: aquamarine;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.parent .child .heading{
+  border: 4px solid black;
+  padding: 12px;
+  letter-spacing: 23px;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace  ;
+  font-weight: 150;
 }
